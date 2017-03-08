@@ -195,15 +195,17 @@ div.dokuwiki div.sidebar_box a.wikilink2 {
 div.dokuwiki div.sidebar_box ul {
 	list-style-type: none !important;	
 }
-/*
+
 div.dokuwiki div.sidebar_box li.level2 a {
-	font-size: 0.875em;	
-}
-div.dokuwiki div.sidebar_box li.level2 a:after {
-	font-size: 10pt !important;
-	content: ' ---';	
+  font-size: 0.75em !important; 
+  text-transform: none !important;
 }
 
+div.dokuwiki div.sidebar_box li.level2 a:after {
+  content: ' | '; 
+}
+
+/*
 div.dokuwiki div.sidebar_box li.level3 a {
 	font-size: 0.8em;	
 }
