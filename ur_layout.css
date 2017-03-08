@@ -1,0 +1,121 @@
+/**
+ * Tableless Layout - additional CSS for Arctic Template
+ *
+ * @author Michael Klier <chi@chimeric.de>
+ * Modified by Matthieu Bouthors
+ * Modified by Hartmut Gluecker <hartgluecker@gmx.net> on behalf of University of Ratisbon
+ */
+
+//modify translation style
+.dokuwiki div.plugin_translation {
+    float: left;
+    text-align: left;
+    font-size: 95%;
+    padding-right: 0.1em;
+    margin : 0.0em 0 0.3em 0;
+}
+
+//modify tag style
+div.dokuwiki div.tags {
+    border-top: 2px dotted #CCCCCC;
+    clear: none;
+    font-size: 95%;
+    text-align: right;
+}
+
+
+div.dokuwiki .pagename {
+  vertical-align: baseline;
+  margin-bottom : 0em;
+  margin-top : 0.1em;
+        font-weight : normal;
+  font-size: 180%;
+  line-height: 100%;
+}
+
+div.dokuwiki .pagename a {
+  color: __pagename_color__ !important;
+}
+
+/*
+div.dokuwiki .header {
+  height: __header_height__;
+  border: 1px solid __border__;
+  background-color: __header_background__;
+  margin-bottom: 0.2em;
+}
+
+div.dokuwiki .pagename {
+  margin: 0.2em;
+  font-size: 130%;
+  color: __lightgray__;
+}
+
+div.dokuwiki .logo {
+  margin: 0.2em;
+  font-size: 130%;
+}
+
+div.dokuwiki .pagename a {
+  color: __pagename_color__ !important;
+}
+
+div.dokuwiki .logo a {
+  color: __logo_color__ !important;
+}
+*/
+
+div.dokuwiki .bar {
+  padding: 2px;
+  height: 26px;
+  /*background : #8e8e8d; */
+  background : #dddddd;
+}
+
+/*
+div.dokuwiki #bar__top,
+div.dokuwiki #bar__bottom { 
+  background: none;
+}
+*/
+
+div.dokuwiki div.meta {
+  padding: 0 0.5em 0 0.5em;
+}
+
+div.dokuwiki div.footerinc div.license {
+  display: inline;
+  padding: 0;
+  font-size: 100%;
+}
+
+div.dokuwiki div.footerinc div.license img {
+  float: none;
+  margin: 0;
+}
+
+/* Dataplugin layout */
+/*
+div.dataplugin_entry {
+  border: 0;
+  float: right;
+  margin: 0 0 0 1.5em;
+}
+*/
+
+/* no idea why the width is set to 50% by default/inheritance. //RW 20120839 */
+/*
+div.dataplugin_entry dl {
+  width: 100%;
+}
+*/
+/* we do not want to show this button because 
+a) people should not use it but edit in the source view, and 
+b) there is no <div> that combines this button and dataplugin_entry. This makes it hard to move both to the correct positions  //RW 20120839  */
+/*
+div.editbutton_plugin_data {
+  display:none;
+  float:right;
+  margin: 0 0 0 1.5em;
+}
+*/
