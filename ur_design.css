@@ -838,3 +838,9 @@ div.dokuwiki div.noteclassic {
 	background-color: __light__ !important;	
 	border-radius: 5px !important;
 }
+
+/* Navi override */
+
+.arrowUnderlay {
+  display: none;
+}
