@@ -76,7 +76,11 @@ IMAGES=images/bullet.gif \
 	   images/tool-top.png \
 	   images/urlextern.png \
 	   images/windows.gif \
-	   images/multimedia.png
+	   images/multimedia.png \
+	   images/logo.gif \
+	   images/logo_ur.png \
+	   images/search_bg.png \
+	   images/tool-revert.png
 
 LANG=lang/de/settings.php \
      lang/cs/settings.php \
